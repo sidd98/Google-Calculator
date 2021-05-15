@@ -1,9 +1,5 @@
-import React from 'react'
-import './PrevDisplay.css'
+import React from "react";
+import "./PrevDisplay.scss";
 export default function PrevDisplay(props) {
-    return (
-        <button className='input'>
-        {props.data}
-        </button>
-    )
+  return <div className="input">{props.data}</div>;
 }

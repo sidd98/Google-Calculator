@@ -1,0 +1,20 @@
+button {
+  max-width: 21%;
+  min-width: 18%;
+  width: 22%;
+  height: 40px;
+  font-size: 15px;
+  margin: 5px;
+  border: none;
+  background-color: #dadce0;
+  border-radius: 5px;
+}
+
+button.equal {
+  background-color: #4285f4;
+  color: white;
+}
+
+button.number {
+  background-color: #f1f3f4;
+}
